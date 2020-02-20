@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/settingsbackground"
+    >
+
+
+    <TextView
+        android:id="@+id/settingsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@+id/soundfxgroup"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/soundfxgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/soundfxtext"
+            android:text="Sound FX"
+            android:textSize="30sp"
+            android:padding="7dp"
+            android:textColor="#d3d3d3"
+            android:layout_alignBottom="@+id/soundfxswitch"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/soundfxswitch"
+            android:background="@mipmap/ontoggle"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:onClick="SoundFXClick"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/musicgroup"
+        android:layout_below="@+id/soundfxgroup"
+        android:layout_alignRight="@id/soundfxgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music"
+            android:id="@+id/musictext"
+            android:textSize="30sp"
+            android:padding="7dp"
+            android:textColor="#d3d3d3"
+            android:layout_alignBottom="@+id/musicswitch"
+            android:layout_alignRight="@+id/soundfxtext"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music"
+            android:background="@mipmap/ontoggle"
+            android:id="@+id/musicswitch"
+            android:layout_below="@+id/soundfxswitch"
+            android:onClick="MusicClick"
+            android:layout_marginLeft="10dp"
+            android:layout_centerInParent="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/suddendeathgroup"
+        android:layout_below="@+id/musicgroup"
+        android:layout_alignRight="@id/soundfxgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUDDEN DEATH"
+            android:textSize="30sp"
+            android:padding="7dp"
+            android:textColor="#d3d3d3"
+            android:layout_alignBottom="@+id/suddendeathswitch"
+            android:layout_alignRight="@+id/soundfxtext"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUDDEN DEATH"
+            android:background="@mipmap/ontoggle"
+            android:id="@+id/suddendeathswitch"
+            android:layout_below="@+id/musicswitch"
+            android:layout_marginLeft="10dp"
+            android:onClick="SuddenDeathClick"
+            android:layout_centerInParent="true"
+            />
+    </LinearLayout>
+
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/backButton"-->
+        <!--android:src="@mipmap/backbutton"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="@null"-->
+        <!--android:layout_marginBottom="10dp"/>-->
+
+
+
+</RelativeLayout>

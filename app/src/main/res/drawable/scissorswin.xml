@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="150"
+        android:drawable="@mipmap/scissorswin1"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/scissorswin2"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/scissorswin3"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/scissorswin4"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/scissorswin5"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/scissorswin6"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/scissorswin7"/>
+
+    <item
+        android:duration="30"
+        android:drawable="@mipmap/scissorswin8"/>
+
+    <item
+        android:duration="30"
+        android:drawable="@mipmap/scissorswin9"/>
+
+    <item
+        android:duration="30"
+        android:drawable="@mipmap/scissorswin10"/>
+
+
+
+</animation-list>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/rockwin1"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/rockwin2"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/rockwin3"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/rockwin4"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/rockwin5"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/rockwin6"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/rockwin7"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/rockwin8"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/rockwin9"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/rockwin10"/>
+
+
+
+</animation-list>

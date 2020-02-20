@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background"
+    >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:id="@+id/tophalfscreen"
+        >
+        <TextView
+            android:id="@+id/playerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/playerone"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#000000"
+            />
+        <ImageView
+            android:id="@+id/playerHPbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/hpbarfull"
+            android:layout_below="@+id/playerName"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:id="@+id/playerTwoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/playertwo"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#000000"
+
+            />
+        <ImageView
+            android:id="@+id/playertwohpbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/hpbarfull"
+            android:scaleX="-1"
+            android:layout_below="@+id/playerTwoName"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="15"
+        >
+        <ImageButton
+            android:id="@+id/rockButtonOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/rockicon"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:layout_above="@+id/paperButtonOne"
+            android:rotation="90"
+
+            />
+        <ImageButton
+            android:id="@+id/paperButtonOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/papericon"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:rotation="90"
+
+            />
+        <ImageButton
+            android:id="@+id/scissorsButtonOne"
+            android:layout_below="@+id/paperButtonOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/scissorsicon"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:rotation="90"
+            />
+        <ImageButton
+            android:id="@+id/rockButtonTwo"
+            android:layout_above="@+id/paperButtonTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/rockicon"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:rotation="-90"
+
+            />
+        <ImageButton
+            android:id="@+id/paperButtonTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/papericon"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:rotation="-90"
+
+            />
+        <ImageButton
+            android:id="@+id/scissorsButtonTwo"
+            android:layout_below="@+id/paperButtonTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/scissorsicon"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:rotation="-90"
+
+            />
+        <ImageView
+            android:id="@+id/battleOutcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/playerOutcome"
+            android:text=""
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            />
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <ImageButton
+            android:id="@+id/restartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:src="@mipmap/restartunpressed"
+            android:background="@null"
+            />
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/backButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/backbutton"-->
+            <!--android:background="@null"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_toLeftOf="@+id/restartButton"-->
+            <!--/>-->
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

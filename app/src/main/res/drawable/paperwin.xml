@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/paperwin1"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/paperwin2"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/paperwin3"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/paperwin4"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/paperwin5"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/paperwin6"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/paperwin7"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/paperwin8"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/paperwin9"/>
+
+    <item
+        android:duration="25"
+        android:drawable="@mipmap/paperwin10"/>
+
+
+
+</animation-list>

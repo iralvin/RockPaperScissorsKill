@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RockPaperScissorKill</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="startgamebutton">Start Game</string>
+    <string name="computerPlayer">COMPUTER</string>
+    <string name="playerone">PLAYER 1</string>
+    <string name="result">RESULTS</string>
+    <string name="wins">WINS</string>
+    <string name="losses">LOSSES</string>
+    <string name="playertwo">PLAYER 2</string>
+    <string name="gameTitle">Rock Paper Scissors Battle</string>
+    <string name="vscomputer">VS COMPUTER</string>
+    <string name="vsplayer">VS PLAYER</string>
+    <string name="restartButton">RESTART GAME</string>
+    <string name="settings">SETTINGS</string>
+    <string name="oneplayer">1 PLAYER</string>
+    <string name="twoplayer">2 PLAYER</string>
+</resources>
